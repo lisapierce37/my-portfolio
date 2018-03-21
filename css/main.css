@@ -1,0 +1,219 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 280px;
+  float: left;
+}
+
+#work, #about, #contact h1 {
+  font-family: 'Megrim', cursive;
+}
+
+/*****HEADER*****/
+
+header {
+  background: url('../img/banff19-copy.jpg');
+  background-size: cover;
+  padding: 10px 0;
+  height: 720px;
+}
+
+header p {
+  clear: both;
+  font-family: 'Raleway';
+  text-align: left;
+  font-size: 50px;
+  color: #eaeaea;
+  padding-top: 300px;
+  width: 900px;
+}
+
+header h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 50px;
+  color: #2d333c;
+  word-spacing: 8px;
+  padding:38px 0;
+}
+
+header p span {
+  font-family: 'Merriweather', serif;
+  font-size: 96px;
+}
+
+nav {
+    float: right;
+    padding: 70px 0;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Raleway';
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size:28px;
+    color:#ffffff;
+    padding-left: 60px;
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+/*****WORK*****/
+
+#work .full-width {
+  padding: 10px 80px;
+  float: left;
+}
+
+#work h2, h3, p {
+  font-family: 'Raleway';
+}
+
+/*****skills*****/
+
+#skills {
+  background: #eaeaea;
+  height: 460px;
+  padding-left: 70px;
+}
+
+#skills .third-width {
+  padding: 0 60px;
+  text-align: center;
+  line-height: 30px;
+  transition: all 0.4s ease;
+}
+
+#skills .third-width:hover {
+  background: lightgrey;
+}
+
+#skills h1 {
+  font-size: 60px;
+}
+
+#skills p {
+  font-size: 20px;
+}
+
+/*****projects*****/
+
+#projects {
+  background: #2d333c;
+  padding: 20px 20px;
+  height: 1340px;
+}
+
+#projects .third-width {
+  padding: 50px 0px 60px 20px;
+  width: 270px;
+  line-height: 30px;
+}
+
+#projects .two-third-width {
+  width: 580px;
+  float: right;
+  padding: 40px 80px 20px 0px;
+}
+
+#projects h3 {
+  font-size: 32px;
+  color: #eaeaea;
+  float: left;
+  clear: both;
+}
+
+#projects p {
+  color: #eaeaea;
+  font-size: 20px;
+  float: left;
+}
+
+/*****ABOUT*****/
+
+#about {
+  clear: both;
+  padding: 60px 0;
+  background: #ffffff;
+  height: 530px;
+}
+
+#about .two-third-width {
+ float: right;
+}
+
+#about h1 {
+  font-size: 60px;
+}
+
+#about img {
+  margin: 1px 40px;
+  border: 10px solid #2d333c;
+}
+
+#about p {
+  padding: 80px 0;
+  float: right;
+  width: 800px;
+  line-height: 38px;
+  font-size: 28px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+  background: #eaeaea;
+  height: 660px;
+}
+
+#contact .full-width {
+  padding: 50px 0;
+}
+
+#contact .first-half-width {
+  padding: 10px 10px 30px 310px;
+  width: 200px;
+  float: left;
+}
+
+#contact .second-half-width {
+  word-spacing: 40px;
+  line-height: 30px;
+  padding: 50px 440px 30px 0;
+  width: 200px;
+  float: right;
+}
+
+#contact h1 {
+  font-size: 60px;
+  float: left;
+}
+
+#contact a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #2d333c;
+}
+
+#contact p {
+  padding: 10px 60px;
+  font-size: 30px;
+  clear: both;
+}
